@@ -17,3 +17,13 @@ VALUES
 SELECT * FROM books;
 SELECT * FROM books WHERE is_available = 1;
 SELECT * FROM books WHERE published_year < 1950;
+
+UPDATE books
+SET is_available = 1
+WHERE title = '1984';
+
+UPDATE books
+SET author = 'Francis Scott Fitzgerald'
+WHERE author = 'F. Scott Fitzgerald';
+
+SELECT * FROM books;
