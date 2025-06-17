@@ -27,3 +27,7 @@ SET author = 'Francis Scott Fitzgerald'
 WHERE author = 'F. Scott Fitzgerald';
 
 SELECT * FROM books;
+
+DELETE FROM books WHERE title = 'To Kill a Mockingbird';
+
+SELECT * FROM books;
