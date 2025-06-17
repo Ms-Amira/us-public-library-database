@@ -1,10 +1,10 @@
--- CREATE TABLE books (
---     book_id INT PRIMARY KEY,
---     title TEXT NOT NULL,
---     author TEXT,
---     published_year DATE,
---     is_available INT(1)
--- );
+CREATE TABLE books (
+    book_id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    author TEXT,
+    published_year DATE,
+    is_available INTEGER(1)
+);
 
 -- DROP TABLE books;
 
